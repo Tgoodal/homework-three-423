@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function function HomePage() {
+export default function HomePage() {
   return(
     <>
-    <h1>Home</h1>
+    <h1>My Name: {process.env.NEXT_PUBLIC_MY_NAME}</h1>
     </>
   )
 }
