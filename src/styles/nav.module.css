@@ -1,0 +1,27 @@
+.wrapper{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.wrapper button{
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.wrapper ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.wrapper ul {
+    list-style: none;
+    display: flex;
+}
+
+.wrapper li{
+    margin: 10px;
+}
